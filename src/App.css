@@ -1,0 +1,13 @@
+  .animationDiv{
+    overflow: hidden;
+  }
+
+  .animSlideUp{
+    animation: slideUp .8s ease both;
+  }
+
+  .animSlideDown{
+    animation: slideDown .7s ease both;
+  }
+
+  
