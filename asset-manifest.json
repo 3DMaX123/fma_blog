@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fma_blog/static/css/main.f1702dff.css",
+    "main.js": "/fma_blog/static/js/main.cb0bfd26.js",
+    "index.html": "/fma_blog/index.html",
+    "main.f1702dff.css.map": "/fma_blog/static/css/main.f1702dff.css.map",
+    "main.cb0bfd26.js.map": "/fma_blog/static/js/main.cb0bfd26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1702dff.css",
+    "static/js/main.cb0bfd26.js"
+  ]
+}
