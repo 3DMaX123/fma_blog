@@ -1,0 +1,26 @@
+.app__navbar{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 41px;
+}
+
+.navbar-socialmedia {
+    display: flex;
+    align-items: center;
+}
+
+.burgerMenu{
+    transition: none;
+    opacity: 1;
+    animation: appearBurger 0.6s ease both;
+}
+
+@keyframes appearBurger {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
