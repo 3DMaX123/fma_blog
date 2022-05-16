@@ -1,0 +1,61 @@
+.HeaderPlusTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin-top: 158px;
+}
+
+.Header{
+    font-family: var(--font-prata);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+
+    text-align: center;
+
+    color: var(--color-black);
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+
+    margin-top: 16px;
+}
+
+.Title p{
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
+}
+
+.FmTitle{
+    font-family: var(--font-imperialscr);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
+}
+
+.AdvertisingTitle{
+    font-family: var(--font-cinzel);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
+}

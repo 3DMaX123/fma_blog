@@ -1,8 +1,22 @@
-.app__navbar{
+.app_navbar-content{
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    
     padding: 41px;
+    width: 100%;
+}
+
+.Logo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    pointer-events: none;
+
+    padding: 27px;
+    width: 100%;
 }
 
 .navbar-socialmedia {
@@ -10,17 +24,125 @@
     align-items: center;
 }
 
-.burgerMenu{
-    transition: none;
-    opacity: 1;
-    animation: appearBurger 0.6s ease both;
+.navbar-socialmedia ul li{
+    display: inline;
+    margin-right: 23px;
+    padding: 4px;
 }
 
-@keyframes appearBurger {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+.navbar-socialmedia ul li:last-child{
+    display: inline;
+    margin-right: 0px;
+}
+
+.facebook{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_1061_299');
+}
+
+.facebook:hover ~ defs stop:first-child{
+    stop-color: var(--color-facebookgradone);
+}
+
+.facebook:hover ~ defs stop:last-child{
+    stop-color: var(--color-facebookgradtwo);
+}
+
+.twitter{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_947_130');
+}
+
+.twitter:hover ~ defs stop:first-child{
+    stop-color: var(--color-twittergradone);
+}
+
+.twitter:hover ~ defs stop:last-child{
+    stop-color: var(--color-twittergradtwo);
+}
+
+.instagram{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_947_132');
+}
+
+.instagram:hover ~ defs stop:first-child{
+    stop-color: var(--color-instgradone);
+}
+
+.instagram:hover ~ defs stop{
+    stop-color: var(--color-instgradtwo);
+}
+
+.instagram:hover ~ defs stop:last-child{
+    stop-color: var(--color-instgradthree);
+}
+
+.toggleMenu{
+    cursor: pointer;
+}
+
+.HeaderPlusTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin-top: 158px;
+}
+
+.Header{
+    font-family: var(--font-prata);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+
+    text-align: center;
+
+    color: var(--color-black);
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+
+    margin-top: 16px;
+}
+
+.Title p{
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
+}
+
+.FmTitle{
+    font-family: var(--font-imperialscr);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
+}
+
+.AdvertisingTitle{
+    font-family: var(--font-cinzel);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+
+    color: var(--color-nameofsections);
 }

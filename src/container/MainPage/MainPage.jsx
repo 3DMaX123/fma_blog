@@ -1,11 +1,17 @@
 import React from 'react'
 
 import './MainPage.css';
-import { images } from '../../constants/images';
+import MainGrid from './MainGrid/MainGrid';
+import MainContent from './MainContent/MainContent';
+import GlobalTrends from './GlobalTrends/GlobalTrends';
 
 const MainPage = () => {
   return (
-    <div>MainPage</div>
+    <div className='app_mainpage'>
+      <MainContent />
+      <MainGrid />
+      <GlobalTrends />
+    </div>
   )
 }
 

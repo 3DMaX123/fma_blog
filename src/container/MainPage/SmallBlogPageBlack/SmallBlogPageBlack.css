@@ -1,0 +1,170 @@
+.SmallBlogPageB{
+    display: flex;
+
+    width: 422px;
+    height: 543px;
+
+    flex-direction: column;
+}
+
+.ImageAndAuthDateB{
+    position: relative;
+}
+
+.ImageB{
+    display: flex;
+    width: 100%;
+}
+
+.ImageB img{
+    width: 100%;
+    height: 312px;
+
+    object-fit: cover;
+    border-radius: 21px 21px 0px 0px;
+
+    flex-direction: row;
+}
+
+.ShortInfB{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+    text-align: center;
+    color: var(--color-shortinf);
+
+    bottom: 0;
+    
+    width: 100%;
+    padding: 0 12px 12px 12px;
+}
+
+.BackplateB{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+
+    bottom: 0;
+
+    background: var(--color-shadowinplate)
+}
+
+.TimeAndDateB{
+    display: flex;
+}
+
+.TimeB{
+    margin-right: 8px;
+}
+
+.InformationB{
+    display: flex;
+    flex-direction: column;
+
+    padding: 28px 14px 0px 14px;
+}
+
+.HashtagsAndSocMediaB{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.smallBlogPage-HashtagsB{
+    display: flex;
+    width: 70%;
+
+    overflow-x: hidden;
+}
+
+.HashtagsB p {
+    margin-right: 9px;
+}
+
+.SocialMediaB ul li{
+    display: inline;
+
+    margin-right: 19px;
+}
+
+.SocialMediaB ul li:last-child{
+    margin-right: 0px;
+}
+
+.facebookFrmB{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_10618');
+}
+
+.facebookFrmB:hover ~ defs stop:first-child{
+    stop-color: var(--color-facebookgradone);
+}
+
+.facebookFrmB:hover ~ defs stop:last-child{
+    stop-color: var(--color-facebookgradtwo);
+}
+
+.twitterFrmB{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_9478');
+}
+
+.twitterFrmB:hover ~ defs stop:first-child{
+    stop-color: var(--color-twittergradone);
+}
+
+.twitterFrmB:hover ~ defs stop:last-child{
+    stop-color: var(--color-twittergradtwo);
+}
+
+.instagramFrmB{
+    display: flex;
+    cursor: pointer;
+    fill: url('#paint0_linear_9498');
+}
+
+.instagramFrmB:hover ~ defs stop:first-child{
+    stop-color: var(--color-instgradone);
+}
+
+.instagramFrmB:hover ~ defs stop{
+    stop-color: var(--color-instgradtwo);
+}
+
+.instagramFrmB:hover ~ defs stop:last-child{
+    stop-color: var(--color-instgradthree);
+}
+
+.TitlePlateB{
+    margin-bottom: 8px;
+}
+
+.TitlePlateB p{
+    font-family: var(--font-prata);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+
+    color: var(--color-white);
+}
+
+.SubTitleB p{
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: var(--color-shortdescription);
+}

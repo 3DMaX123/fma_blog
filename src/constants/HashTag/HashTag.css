@@ -1,0 +1,19 @@
+.HashtagPlate{
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: var(--color-hashtag);
+
+    padding: 2px 8px;
+    background: var(--color-backhashtag);
+    border: 0.5px solid var(--color-hashtagborder);
+    border-radius: 21px;
+
+    pointer-events: none;
+    margin-right: 9px;
+}
