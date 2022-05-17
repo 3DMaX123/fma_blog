@@ -1,4 +1,4 @@
-.test{
+.testB{
     font-family: var(--font-inter);
     font-style: normal;
     font-weight: 500;
@@ -6,7 +6,7 @@
 
     text-align: center;
 
-    background: var(--color-instgrad);
+    background: var(--color-bluegrad);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './GlobalTrends.css';
-import RollerHashTag from '../../../constants/RollerHashTag/RollerHashTag';
+import RollerHashTagBlack from '../../../constants/RollerHashTagBlack/RollerHashTagBlack';
 import SmallBlogPageBlack from '../SmallBlogPageBlack/SmallBlogPageBlack';
 
 const GlobalTrends = () => {
   return (
     <div className='app_mainpage_globtrends'>
         <div className='Hashtags'>
-            <RollerHashTag color='' />
+            <RollerHashTagBlack color='' />
         </div>
         <div className='globtrends-header'>
             <p>TRENDS</p>
