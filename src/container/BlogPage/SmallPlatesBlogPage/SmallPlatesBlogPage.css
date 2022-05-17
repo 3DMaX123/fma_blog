@@ -1,0 +1,44 @@
+.tags_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    width: 100%;
+    margin-left: 1.458vw;
+
+}
+ .lowBlogPage-Hashtags{
+    display: flex;
+    width: 70%;
+
+    overflow-x: hidden;
+
+}
+.rec_name{
+    font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #343434;
+}
+.rec_profile{
+    display: flex;
+    margin-top: 1.250vw;
+    
+}
+.rec_profile_logo{
+    border-radius: 9px;
+    width: 3.958vw;
+    height: 3.490vw;
+}
+.column_sort{
+    display: flex;
+    flex-direction: column;
+}
+.rec_name{
+    margin-top: 0.677vw;
+    margin-left: 1.458vw;
+    width: 100%;
+}
