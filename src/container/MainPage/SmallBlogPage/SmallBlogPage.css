@@ -101,49 +101,18 @@
 }
 
 .facebookFrm{
-    display: flex;
     cursor: pointer;
-    fill: url('#paint0_linear_1061');
-}
-
-.facebookFrm:hover ~ defs stop:first-child{
-    stop-color: var(--color-facebookgradone);
-}
-
-.facebookFrm:hover ~ defs stop:last-child{
-    stop-color: var(--color-facebookgradtwo);
+    filL: var(--color-black);
 }
 
 .twitterFrm{
-    display: flex;
     cursor: pointer;
-    fill: url('#paint0_linear_947');
-}
-
-.twitterFrm:hover ~ defs stop:first-child{
-    stop-color: var(--color-twittergradone);
-}
-
-.twitterFrm:hover ~ defs stop:last-child{
-    stop-color: var(--color-twittergradtwo);
+    filL: var(--color-black);
 }
 
 .instagramFrm{
-    display: flex;
     cursor: pointer;
-    fill: url('#paint0_linear_949');
-}
-
-.instagramFrm:hover ~ defs stop:first-child{
-    stop-color: var(--color-instgradone);
-}
-
-.instagramFrm:hover ~ defs stop{
-    stop-color: var(--color-instgradtwo);
-}
-
-.instagramFrm:hover ~ defs stop:last-child{
-    stop-color: var(--color-instgradthree);
+    filL: var(--color-black);
 }
 
 .TitlePlate{

@@ -66,7 +66,7 @@ class SmallBlogPage extends React.Component {
                                 <svg className='facebooksvgFrmB' width="8" height="16" viewBox="0 0 8 16">
                                 <path className='facebookFrmB' fill-rule="evenodd" clip-rule="evenodd" d="M8 5.5H5V3.5C5 3.23478 5.10536 2.98043 5.29289 2.79289C5.48043 2.60536 5.73478 2.5 6 2.5H7V0H5C4.20435 0 3.44129 0.31607 2.87868 0.87868C2.31607 1.44129 2 2.20435 2 3V5.5H0V8H2V16H5V8H7L8 5.5Z"/>
                                 <defs>
-                                    <linearGradient id="paint0_linear_10618" x1="7.5" y1="7" x2="-9.49949e-08" y2="13.5" gradientUnits="userSpaceOnUse">
+                                    <linearGradient id="paint0_linear_1033" x1="7.5" y1="7" x2="-9.49949e-08" y2="13.5" gradientUnits="userSpaceOnUse">
                                     <stop stop-color="#FFFFFF"/>
                                     <stop offset="1" stop-color="#FFFFFF"/>
                                     </linearGradient>

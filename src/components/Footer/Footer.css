@@ -1,0 +1,152 @@
+.app__footer{
+    display: flex;
+    width: 100%;
+}
+
+.footer-LeftSide{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    width: 49%;
+    padding: 40px;
+
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--review-positionandcompany);
+}
+
+.footer-blurLeft{
+    display: flex;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    background: rgba(255, 255, 255, 0.04);
+    filter: blur(100px);
+
+}
+
+.footer-blurLeft svg{
+    display: flex;
+    position: absolute;
+}
+
+.footer-elipse-sixL{
+    left: 229px;
+    bottom: 90px;
+}
+
+.footer-elipse-fifeL{
+    left: 355px;
+    bottom: 100px;
+}
+
+.footer-elipse-fourL{
+    left: 484px;
+    bottom: 100px;
+}
+
+.footer-elipse-threeL{
+    left: 587px;
+    bottom: 70px;
+}
+
+.footer-elipse-twoL{
+    left: 472px;
+    bottom: 0px;
+}
+
+.footer-elipse-oneL{
+    left: 282px;
+    bottom: 0px;
+}
+
+.footer-leftText{
+    display: flex;
+    position: relative;
+    left: 10px;
+    margin-bottom: 100px;
+}
+
+.footer-leftArrow{
+    display: flex;
+    margin-right: 33px;
+    margin-bottom: 25px;
+}
+
+.footer-line{
+    display: flex;
+    width: 10px;
+    height: 100%;
+
+    background-color: aqua;
+}
+
+.footer-RightSide{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+    
+    width: 50%;
+    padding: 40px;
+
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: var(--review-positionandcompany);
+}
+
+.footer-blurRight{
+    display: flex;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    background: rgba(255, 255, 255, 0.04);
+    filter: blur(100px);
+
+}
+
+.footer-blurRight svg{
+    display: flex;
+    position: absolute;
+}
+
+.footer-elipse-oneR{
+    left: 250px;
+    bottom: -10px;
+}
+
+.footer-rightArrow{
+    display: flex;
+    margin-left: 33px;
+    margin-bottom: 25px;
+}
+
+.footer-rightText{
+    display: flex;
+    position: relative;
+    left: -10px;
+    margin-bottom: 90px;
+}
