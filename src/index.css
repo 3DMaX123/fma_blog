@@ -28,6 +28,10 @@
     --color-backhashtag: #f8f8f8;
     --color-hashtagborderblack: rgba(255, 255, 255, 0.1);
     --color-hashtagborder: rgba(52, 52, 52, 0.1);
+    --color-elipseone: #F3F3CF;
+    --color-elipsetwo:  #8DDFF3;
+    --color-elipsethree: #F39D9D;
+    --color-elipsefour: #8DDFF3;
 }
 
 ::-webkit-scrollbar {

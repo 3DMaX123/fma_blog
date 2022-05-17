@@ -1,0 +1,122 @@
+.blog__aboutus{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.blur{
+
+position: absolute;
+width: 100%;
+height: 100%;
+filter: blur(160px); 
+
+
+}
+
+
+
+
+.elipse1{
+    position: relative;
+    width: 415px;
+    height: 416px;
+    left: 1222px;
+    top: 180px;
+    background-color: var(--color-elipseone);
+    border-radius: 200px;
+    
+}
+
+
+.elipse2{
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    left: 1205.5px;
+    top: 432.87px;
+    background-color:#8DDFF3;
+    border-radius: 200px;
+}
+
+.elipse3{
+    position: absolute;
+    width: 415px;
+    height: 416px;
+    left: 850px;
+    top: 479.5px;
+    background-color: #F39D9D;
+    border-radius: 200px;
+    
+}
+
+.elipse4{
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    left: 862px;
+    top: 164px;
+    background-color: #8DDFF3;
+    border-radius: 200px;
+}
+
+
+
+
+.Review{
+    
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    
+ 
+}
+
+
+.First{
+ 
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+
+    
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutus-FM{
+    font-family: 'Imperial Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: rgba(52, 52, 52, 0.7);
+    
+}
+
+.aboutus-BLOG{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    
+    color: rgba(52, 52, 52, 0.7);
+
+}
