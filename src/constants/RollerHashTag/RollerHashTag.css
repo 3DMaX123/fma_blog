@@ -1,4 +1,23 @@
-.test{
+.RollerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: content-box;
+
+    height: 24px;
+
+}
+
+.RollerText-words{
+    overflow: hidden!important;
+}
+
+.RollerText-words span{
+    display: block;
+    height: 100%;
+
     font-family: var(--font-inter);
     font-style: normal;
     font-weight: 500;
@@ -10,4 +29,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-fill-color: transparent;
+
+    animation: rollerText 20s ease infinite both;
 }

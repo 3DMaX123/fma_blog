@@ -17,10 +17,6 @@ const GlobalTrends = () => {
         <div className='globtrends-subtitle'>
             <p>Мг... Ви вже на цьому розділі? Я так розумію попередній вам не підійшов, ну що ж важка артилерія! <br />Зацініть наші 12 найтрендовіших статей, цілком об’єктивно(ага, а як же).</p>
         </div>
-
-        <div className='globtrends-grid'>
-
-        </div>
         <div className='globtrends-grid'>
             <SmallBlogPageBlack
                 Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
