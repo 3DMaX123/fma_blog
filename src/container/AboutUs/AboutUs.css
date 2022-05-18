@@ -6,17 +6,11 @@
 }
 
 .blur{
-
-position: absolute;
-width: 100%;
-height: 100%;
-filter: blur(160px); 
-
-
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(160px); 
 }
-
-
-
 
 .elipse1{
     position: relative;
@@ -26,7 +20,6 @@ filter: blur(160px);
     top: 180px;
     background-color: var(--color-elipseone);
     border-radius: 200px;
-    
 }
 
 
@@ -36,7 +29,7 @@ filter: blur(160px);
     height: 415px;
     left: 1205.5px;
     top: 432.87px;
-    background-color:#8DDFF3;
+    background-color: var(--color-elipsetwo);
     border-radius: 200px;
 }
 
@@ -46,9 +39,8 @@ filter: blur(160px);
     height: 416px;
     left: 850px;
     top: 479.5px;
-    background-color: #F39D9D;
+    background-color: var(--color-elipsethree);
     border-radius: 200px;
-    
 }
 
 .elipse4{
@@ -57,36 +49,27 @@ filter: blur(160px);
     height: 415px;
     left: 862px;
     top: 164px;
-    background-color: #8DDFF3;
+    background-color: var(--color-elipsefour);
     border-radius: 200px;
 }
 
-
-
-
-.Review{
-    
+.Review{  
     display: flex;
-    font-family: 'Montserrat';
+    font-family: var(--font-montserrat);
     font-style: normal;
     font-weight: 300;
     font-size: 50px;
     line-height: 61px;
-    
- 
+    color: var(--color-black);
 }
 
-
 .First{
- 
- 
-    font-family: 'Inter';
+    font-family: var(--font-inter);
     font-style: normal;
     font-weight: 200;
     font-size: 24px;
     line-height: 29px;
-
-    
+    color: var(--review-positionandcompany);   
 }
 
 .text{
@@ -95,7 +78,7 @@ filter: blur(160px);
     flex-direction: column;
     position: relative;
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -116,7 +99,6 @@ filter: blur(160px);
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
-    
     color: rgba(52, 52, 52, 0.7);
 
 }
