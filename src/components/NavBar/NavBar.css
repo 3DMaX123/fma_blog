@@ -83,7 +83,7 @@
 
 .toggleMenu{
     cursor: pointer;
-    z-index: 10;
+    z-index: 101;
 }
 
 .toggleMenuOpen{
@@ -110,7 +110,7 @@
     width: 855px;
     height: 100vh;
 
-    z-index: 2;
+    z-index: 100;
 
     background-color: var(--color-white);
     box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
