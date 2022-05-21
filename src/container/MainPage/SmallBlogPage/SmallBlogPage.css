@@ -137,3 +137,8 @@
 
     color: var(--review-positionandcompany);
 }
+
+.smallblogpage-backplate{
+    display: none;
+    
+}
