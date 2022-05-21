@@ -200,6 +200,9 @@
   color: #343434;
 }
 .subscriber_count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 0.677vw;
 
   font-family: var(--font-inter);
