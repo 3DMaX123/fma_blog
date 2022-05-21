@@ -35,6 +35,7 @@
     --color-elipsefour: #8DDFF3;
     --color-shadow: rgba(112, 144, 176, 0.2);
     --color-instgrad: linear-gradient(96.65deg, rgba(252, 127, 96, 0.62) 9.98%, rgba(252, 75, 137, 0.62) 50.64%, rgba(72, 73, 215, 0.62) 93.32%);
+    --color-rotate-bottom: rgba(0, 0, 0, 0.7);
 }
 
 ::-webkit-scrollbar {
