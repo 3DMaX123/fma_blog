@@ -44,3 +44,48 @@
 
     color: var(--color-black);
 }
+
+.mainPage-searchAndHashtag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+    margin-top: 68px;
+    margin-bottom: 83px;
+}
+
+.mainPage-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+
+    background: var(--color-white);
+    box-shadow: 0px 16px 40px var(--shadow);
+    border-radius: 18px;
+
+    margin-bottom: 25px;
+}
+
+.mainPage-search input{
+    display: flex;
+    width: 82%;
+    height: 70%;
+    outline: none;
+    border: none;
+
+    margin-right: 15px;
+
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(52, 52, 52, 0.6);
+}
+

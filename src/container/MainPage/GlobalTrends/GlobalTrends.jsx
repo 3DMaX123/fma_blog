@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './GlobalTrends.css';
-import RollerHashTag from '../../../constants/RollerHashTag/RollerHashTag';
+import RollerHashTagBlack from '../../../constants/RollerHashTagBlack/RollerHashTagBlack';
 import SmallBlogPageBlack from '../SmallBlogPageBlack/SmallBlogPageBlack';
 
 const GlobalTrends = () => {
   return (
     <div className='app_mainpage_globtrends'>
         <div className='Hashtags'>
-            <RollerHashTag color='' />
+            <RollerHashTagBlack color='' />
         </div>
         <div className='globtrends-header'>
             <p>TRENDS</p>
@@ -16,10 +16,6 @@ const GlobalTrends = () => {
 
         <div className='globtrends-subtitle'>
             <p>Мг... Ви вже на цьому розділі? Я так розумію попередній вам не підійшов, ну що ж важка артилерія! <br />Зацініть наші 12 найтрендовіших статей, цілком об’єктивно(ага, а як же).</p>
-        </div>
-
-        <div className='globtrends-grid'>
-
         </div>
         <div className='globtrends-grid'>
             <SmallBlogPageBlack
