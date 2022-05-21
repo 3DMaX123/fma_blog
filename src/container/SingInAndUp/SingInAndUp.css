@@ -73,7 +73,7 @@
     height: 37.500vw;
     background: var(--color-white);
     box-shadow: 0vw 0.833vw 2.083vw var(--shadow);
-    border-radius: 0vw 1.979vw 31.979vw 0vw;
+    border-radius: 0vw 1.979vw 1.979vw 0vw;
 }
 
 .cumfeti{
@@ -312,7 +312,7 @@
     height: 37.500vw;
     background: var(--color-white);
     box-shadow: 0vw 0.833vw 2.083vw var(--shadow);
-    border-radius: 0vw 1.979vw 31.979vw 0vw;
+    border-radius: 0vw 1.979vw 1.979vw 0vw;
   }
 
   .registration_registr p{
