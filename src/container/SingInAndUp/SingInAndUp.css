@@ -281,7 +281,7 @@
     all: unset;
     cursor: pointer;
     height: 2.031vw;
-    padding: 0.104vw 6.250vw;
+    padding: 0.104vw 4.323vw;
     background-color: var(--color-actualblack);
     box-shadow: 0vw 0.833vw 2.083vw var(--color-shadow);
     border-radius: 0.573vw;
