@@ -110,6 +110,9 @@ class SmallBlogPage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className='smallblogpage-backplate'>
+                    
+                </div>
             </div>
         )
     }
