@@ -1,13 +1,37 @@
 {
   "files": {
-    "main.css": "/fma_blog/static/css/main.f1702dff.css",
-    "main.js": "/fma_blog/static/js/main.cb0bfd26.js",
+    "main.css": "/fma_blog/static/css/main.a749c6a2.css",
+    "main.js": "/fma_blog/static/js/main.5426b9b5.js",
+    "static/media/example.jpg": "/fma_blog/static/media/example.201f1ce867627d30b8fb.jpg",
+    "static/media/mainLogo.svg": "/fma_blog/static/media/mainLogo.2cd50fc33b38a4f7f156a1409e482478.svg",
+    "static/media/emojy-angel.svg": "/fma_blog/static/media/emojy-angel.c2245034a4ddd54fae21f415c1cd6cdc.svg",
+    "static/media/emojy-cool.svg": "/fma_blog/static/media/emojy-cool.7e7db132df87ee9f2b5597299d7bdaa7.svg",
+    "static/media/instagram.svg": "/fma_blog/static/media/instagram.1fe8b2b7f4a1f2e4923a6509b3673e46.svg",
+    "static/media/emojy-laugh.svg": "/fma_blog/static/media/emojy-laugh.d4edbe76c1dff3668c15c85b64597a4a.svg",
+    "static/media/emojy-shock.svg": "/fma_blog/static/media/emojy-shock.dd6bd31a7b45cb2fcd1e5d30e521734a.svg",
+    "static/media/emojy-loveya.svg": "/fma_blog/static/media/emojy-loveya.3dd1632a26e0e0f36c37b0128e07799d.svg",
+    "static/media/emojy-demon.svg": "/fma_blog/static/media/emojy-demon.65af5a4a202baef9f8bb36b771196016.svg",
+    "static/media/emojy-winks.svg": "/fma_blog/static/media/emojy-winks.a7562529e2c97e892d705a00f39e614e.svg",
+    "static/media/emojy-awkward.svg": "/fma_blog/static/media/emojy-awkward.d5a3c5cfd6ab6533f143ddb93ee87e33.svg",
+    "static/media/emojy-intotalshock.svg": "/fma_blog/static/media/emojy-intotalshock.d0e4cac406868e8e73337df511761c80.svg",
+    "static/media/emojy-tongue.svg": "/fma_blog/static/media/emojy-tongue.3af0dde00667d675652b6c9a50016b0f.svg",
+    "static/media/emojy-happyred.svg": "/fma_blog/static/media/emojy-happyred.8c978c5d2426ace7cb7c5de26e50fbb8.svg",
+    "static/media/emojy-pleasure.svg": "/fma_blog/static/media/emojy-pleasure.3da5c97cc2299fa73d2b119418cf65db.svg",
+    "static/media/emojy-inlove.svg": "/fma_blog/static/media/emojy-inlove.10636afdde0fe7e3f93bc3b7958897a0.svg",
+    "static/media/emojy-inshock.svg": "/fma_blog/static/media/emojy-inshock.bcb8fec7807d6ca7d4c539514a997643.svg",
+    "static/media/emojy-happy.svg": "/fma_blog/static/media/emojy-happy.f72436e533550e9dab06c4de9e3ab644.svg",
+    "static/media/emojy-dumbsmile.svg": "/fma_blog/static/media/emojy-dumbsmile.872bc7f95887ceac68a977f6f79f31b9.svg",
+    "static/media/emojy-dntcare.svg": "/fma_blog/static/media/emojy-dntcare.b2d7e4109a8d7a95652a0de9b7153f38.svg",
+    "static/media/menuBarGrad.svg": "/fma_blog/static/media/menuBarGrad.aa1aa2f7305172a443f187ca58beb2e7.svg",
+    "static/media/twitter.svg": "/fma_blog/static/media/twitter.4142dc168311f181e3a3d2e5b5c75908.svg",
     "index.html": "/fma_blog/index.html",
-    "main.f1702dff.css.map": "/fma_blog/static/css/main.f1702dff.css.map",
-    "main.cb0bfd26.js.map": "/fma_blog/static/js/main.cb0bfd26.js.map"
+    "static/media/facebook.svg": "/fma_blog/static/media/facebook.638a9bd03c8da243befdc13361818949.svg",
+    "static/media/menuBar.svg": "/fma_blog/static/media/menuBar.e518e4ce08eeabd23a49cccd6cf0bbb2.svg",
+    "main.a749c6a2.css.map": "/fma_blog/static/css/main.a749c6a2.css.map",
+    "main.5426b9b5.js.map": "/fma_blog/static/js/main.5426b9b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1702dff.css",
-    "static/js/main.cb0bfd26.js"
+    "static/css/main.a749c6a2.css",
+    "static/js/main.5426b9b5.js"
   ]
 }
