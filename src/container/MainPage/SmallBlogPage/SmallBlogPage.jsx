@@ -30,13 +30,14 @@ class SmallBlogPage extends React.Component {
             author: this.props.Author,
             time: this.props.Time,
             date: this.props.Date,
-            isWhite: false
+            isWhite: false,
+            authorId: props.AuthorId,
+            image: props.Image
         }
     }
 
     render(){
-        
-    
+
         return (
             
             <div className='SmallBlogPage'>
@@ -109,9 +110,6 @@ class SmallBlogPage extends React.Component {
                             <SubTitle subtitle={this.state.subtitle}/>
                         </div>
                     </div>
-                </div>
-                <div className='smallblogpage-backplate'>
-                    
                 </div>
             </div>
         )

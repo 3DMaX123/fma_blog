@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import './MainGrid.css';
 import SmallBlogPage from '../SmallBlogPage/SmallBlogPage';
 import RollerHashTag from '../../../constants/RollerHashTag/RollerHashTag';
+import { variables } from '../../../constants/Variables';
+import moment from 'moment';
 
 class MainGrid extends React.Component {
 
   constructor(props){
     super(props);
     this.state = {
-      w: 434
+      w: 434,
+      post: [],
+      hashtag: []
     }
     this.handleClickOnSearch = this.handleClickOnSearch.bind(this);
   }
@@ -20,6 +24,27 @@ class MainGrid extends React.Component {
     }else{
       this.setState({w: 770});
     }
+  }
+
+  GetListPost(){
+    fetch(variables.API_URL+'post')
+    .then(response => response.json())
+    .then(data => {
+      this.setState({post: data});
+    });
+  }
+
+  componentDidMount(){
+    this.GetListPost();
+    this.GetListHashtag();
+  }
+
+  GetListHashtag(){
+    fetch(variables.API_URL+'hashtag')
+    .then(response => response.json())
+    .then(data => {
+      this.setState({hashtag: data});
+    });
   }
 
   render(){
@@ -52,63 +77,33 @@ class MainGrid extends React.Component {
           </div>
 
           <div className='Maingrid' >
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-          <SmallBlogPage 
-          Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
-          SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
-          Author='3DMaX'
-          Time='10'
-          Date='12.05.22'
-          />
-      </div>
+            <SmallBlogPage 
+            Title='Як підвищити органічну видачу сайту, або як не зійти з розуму jfbgerbfgergggggggg'
+            SubTitle='(Не обіцяємо, що не зійдете з розуму) А взагалі потрібно знайти якогось вченого, забашляти йомуааа'
+            Author='3DMaX'
+            Time='10'
+            Date='12.05.22'
+            />
+            {
+              this.state.post.map(posts =>
+                <SmallBlogPage 
+                  key={posts.id}
+                  Title={posts.title}
+                  SubTitle={posts.subtitle}
+                  Author='3DMaX'
+                  Time={posts.timeToRead}
+                  Date={moment(posts.dateCreated).format('DD.MM.YY')}
+                  AuthorId={posts.authorId}
+                />
+              )
+            }
+            {
+              this.state.hashtag.map(hashtags =>
+                <p>{hashtags.text}</p>
+              )
+            }
+            
+          </div>
 
       <div className='LoadMore'>
           <div className='LoadMoreClick'>
